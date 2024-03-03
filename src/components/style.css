@@ -1,0 +1,22 @@
+.table-transparent {
+    /* opacity: 0.1; */
+    background-color: transparent;
+  }
+  .ant-table {
+    color: #e8eaed  !important;    
+    background: rgb(34, 33, 33) !important;
+  }
+
+  .ant-table-thead > tr >th{
+ 
+    color: #e8eaed  !important;    
+    background: rgb(34, 33, 33) !important;
+  
+  }
+
+  .ant-table-tbody {
+    > tr:hover:not(.ant-table-expanded-row) > td,.ant-table-row-hover,.ant-table-row-hover>td{
+      background-color: rgb(64, 6, 49) !important;
+    }
+  }
+
